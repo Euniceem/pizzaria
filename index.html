@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pizzaria</title>
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Black+And+White+Picture|Crete+Round|Fauna+One|Julius+Sans+One|Rye|Dosis|Vollkorn|Titan+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Best Pizza Ever</title>
 </head>
 <body>
-    <h1 id ="intro">Hello World</h1>
     <header id="intro">
         <div class ="content">
             <h1 id="name">Pizzaria La DevLeague</h1>
             <h2 id="tagLine">Functional Pizza For All!</h2>
-            <img src="pizzaMan.jpeg" alt="logo">
+            <img src="assets/pizzaMan.jpeg" alt="logo" width = 100 length = 100 id="pizzaMan">
             <nav id="topMenu">
-                <li class ="guide"><a href="today">Todays Special</a></li>
+                <li class ="current"><a href="today">Today's Special</a></li>
                 <li class ="guide"><a href="menu">Menu</a></li>
                 <li class ="guide"><a href="subscribe">Subscribe</a></li>
                 <li class ="guide"><a href="visit">Visit</a></li>  
@@ -23,8 +24,9 @@
     </header>
     <section id="today">
         <div class ="content">
-            <h3 class ="sectionTitle">Today's Special</h3>
+            <h3 class ="firstSectionTitle">Today's Special</h3>
             <p id="special">Conditional Love</p>
+            <!---<img src="http://www.pizzamegic.com/wp-content/uploads/2016/05/ci_mettiamo_il_cuore.jpg" alt="heart-shaped pizza">-->
         </div>
     </section>
     <section id="menu">
@@ -33,16 +35,16 @@
             <div class="pizza">
                 <p class="pizzaName">Object of My Desire</p>
                 <p class="description">A programmers delight, this classic has string cheese, an array of BBQ means and 1 special sauce.</p>
-                <p class="price">19.99</p>
+                <p class="price">$19.99</p>
                 <p class="pizzaName">Four Loop</p>
                 <p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil.  Loop there it is!</p>
-                <p class="price">44.44</p>
+                <p class="price">$44.44</p>
                 <p class="pizzaName">Conditional Love</p>
                 <p class="description">This island favorite doesn't give you a chance to say no.  Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
-                <p class="price">22.14</p>
+                <p class="price">$22.14</p>
                 <p class="pizzaName">Conjuntion Function</p>
                 <p class="description">Create your own pie by passing in handpicked fresh ingredients.  Invoke your appetite and creativity!  Mamma Mia return back to glory!</p>
-                <p class="price">17.02</p>
+                <p class="price">$17.02</p>
             </div>
         </div>
     </section>
@@ -57,21 +59,21 @@
     </section>
     <section id="visit">
         <div class="content">
-            <h3 class ="sectionTitle">Visit</h3>
+            <h3 class="sectionTitle">Visit</h3>
             <ul id="addy">
                 <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
                 <li id="map">
                     <a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a>
                 </li>
-                <li class ="hours">Monday - Saturday</li>
-                <li class ="hours">12pm - 12am</li>
-                <li class ="hours">Coding on Sundays</li>
+                <li class="hours">Monday - Saturday</li>
+                <li class="hours">12pm - 12am</li>
+                <li class="hours">Coding on Sundays</li>
             </ul>
         </div>
     </section>
     <footer>
         <div class="content">
-            <p id="credit">Site Design and Development By Your Name</p>
+            <p id="credit">Site Design and Development By Eunice Min</p>
             <div id="copyright">&copy 2017 Gin Drinkers Association (GDA)</div>
         </div>
     </footer>
